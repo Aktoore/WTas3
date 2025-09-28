@@ -1,0 +1,49 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Навбар */
+.nav-header {
+  background: #222;
+  padding: 15px 0;
+  text-align: center;          /* центрируем весь контент */
+}
+
+.logo {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;     /* ссылки по центру */
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+/* Контент */
+.main-content {
+  padding: 40px;
+  text-align: center;
+}
